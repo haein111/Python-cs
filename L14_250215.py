@@ -24,6 +24,8 @@ d = {'Ana':'B', 'Matt':'C', 'John':'B', 'Katy':'A'}
 
 ########################################################
 
+
+
 ################## YOU TRY IT #########################
 def find_in_L(Ld, k):
     """ L is a list of dicts
@@ -33,6 +35,7 @@ def find_in_L(Ld, k):
     for d in Ld:
         ## d = k1, k2...
         if k in d:
+            # k is keys
             return True
     return False
   
@@ -102,9 +105,9 @@ def occurs_often(word_dict, x):
 #song = "Because you know Im all about that bass  Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass bass bass bass  Yeah its pretty clear I aint no size two But I can shake it shake it like Im supposed to do Cause I got that boom boom that all the boys chase And all the right junk in all the right places I see the magazine workin that Photoshop We know that stuff aint real come on now make it stop If you got beauty beauty just raise em up Cause every inch of you is perfect from the bottom to the top Yeah my mama she told me dont worry about your size Shoo wop wop shaooh wop wop She says Boys like a little more booty to hold at night That booty uh that booty booty You know I wont be no stick figure silicone Barbie doll So if that what youre into then go head and move along Because you know Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass Hey Im bringing booty back Go head and tell them skinny girls that No Im just playing I know you think youre fat But Im here to tell you Every inch of you is perfect from the bottom to the top Yeah my mama she told me dont worry about your size Shoo wop wop shaooh wop wop She says Boys like a little more booty to hold at night That booty booty uh that booty booty You know I wont be no stick figure silicone Barbie doll So if thats what youre into then go head and move along Because you know Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass You know Im all about that bass Bout that bass no treble I said Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass Because you know Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass no treble Im all about that bass Bout that bass Hey Im all about that bass Bout that bass Hey Im all about that bass Bout that bass Hey Yeah yeah ohh You know you like this bass Hey "
 #song = "It might seem crazy what Im about to say Sunshine shes here you can take a break Im a hot air balloon that could go to space With the air like I dont care baby by the way  Uh  Because Im happy Clap along if you feel like a room without a roof Because Im happy Clap along if you feel like happiness is the truth Because Im happy Clap along if you know what happiness is to you Because Im happy Clap along if you feel like thats what you wanna do  Here come bad news talking this and that yeah Well give me all you got and dont hold it back yeah Well I should probably warn you Ill be just fine yeah No offense to you dont waste your time Heres why  Because Im happy Clap along if you feel like a room without a roof Because Im happy Clap along if you feel like happiness is the truth Because Im happy Clap along if you know what happiness is to you Because Im happy Clap along if you feel like thats what you wanna do  Hey Go Uh  Happy Bring me down Cant nothing Bring me down My levels too high Bring me down Cant nothing Bring me down I said let me tell you now Bring me down Cant nothing Bring me down My levels too high Bring me down Cant nothing Bring me down I said  Because Im happy Clap along if you feel like a room without a roof Because Im happy Clap along if you feel like happiness is the truth Because Im happy Clap along if you know what happiness is to you Because Im happy Clap along if you feel like thats what you wanna do  Because Im happy Clap along if you feel like a room without a roof Because Im happy Clap along if you feel like happiness is the truth Because Im happy Clap along if you know what happiness is to you Because Im happy Clap along if you feel like thats what you wanna do  Hey Go Uh  Happy repeats Bring me down cant nothing Bring me down my levels too high Bring me down cant nothing Bring me down I said let me tell you now  Because Im happy Clap along if you feel like a room without a roof Because Im happy Clap along if you feel like happiness is the truth Because Im happy Clap along if you know what happiness is to you Because Im happy Clap along if you feel like thats what you wanna do   Because Im happy Clap along if you feel like a room without a roof Because Im happy Clap along if you feel like happiness is the truth Because Im happy Clap along if you know what happiness is to you Because Im happy Clap along if you feel like thats what you wanna do  Hey Cmon"
 #song = "Oh  oh oh Oh  Yeah  Im gonna take my horse to the old town road Im gonna ride til I cant no more Im gonna take my horse to the old town road Im gonna ride til I cant no more Kio  Kio   I got the horses in the back Horse tack is attached Hat is matte black Got the boots thats black to match Ridin on a horse  ha You can whip your Porsche I been in the valley You aint been up off that porch  now  Cant nobody tell me nothin You cant tell me nothin Cant nobody tell me nothin You cant tell me nothin  Ridin on a tractor Lean all in my bladder Cheated on my baby You can go and ask her My life is a movie Bull ridin and boobies Cowboy hat from Gucci Wrangler on my booty  Cant nobody tell me nothin You cant tell me nothin Cant nobody tell me nothin You cant tell me nothin  Yeah  Im gonna take my horse to the old town road Im gonna ride til I cant no more Im gonna take my horse to the old town road Im gonna ride til I cant no more   Hat down  cross town  livin like a rock star Spent a lot of money on my brand new guitar Babys got a habit diamond rings and Fendi sports bras Ridin down Rodeo in my Maserati sports car Got no stress  Ive been through all that Im like a Marlboro Man so I kick on back Wish I could roll on back to that old town road I wanna ride til I cant no more   Yeah  Im gonna take my horse to the old town road Im gonna ride til I cant no more Im gonna take my horse to the old town road Im gonna ride til I cant no more"
-song = "Hey  I was doing just fine before I met you I drink too much and thats an issue but Im okay Hey  you tell your friends it was nice to meet them But I hope I never see them again I know it breaks your heart Moved to the city in a broke down car And four years  no calls Now youre looking pretty in a hotel bar And I cant stop No  I cant stop So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older We aint ever getting older You look as good as the day I met you I forget just why I left you  I was insane Stay and play that Blink 182 song That we beat to death in Tucson  okay I know it breaks your heart Moved to the city in a broke down car And four years  no call Now Im looking pretty in a hotel bar And I cant stop No  I cant stop So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older We aint ever getting older So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older We aint ever getting older No we aint ever getting older"
+# song = "Hey  I was doing just fine before I met you I drink too much and thats an issue but Im okay Hey  you tell your friends it was nice to meet them But I hope I never see them again I know it breaks your heart Moved to the city in a broke down car And four years  no calls Now youre looking pretty in a hotel bar And I cant stop No  I cant stop So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older We aint ever getting older You look as good as the day I met you I forget just why I left you  I was insane Stay and play that Blink 182 song That we beat to death in Tucson  okay I know it breaks your heart Moved to the city in a broke down car And four years  no call Now Im looking pretty in a hotel bar And I cant stop No  I cant stop So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older We aint ever getting older So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older We aint ever getting older No we aint ever getting older"
 
-song_dict = generate_word_dict(song)
+# song_dict = generate_word_dict(song)
 # print("***** WORDS IN SONG *****")
 # song_words = song.lower()
 # print(song_words.split())
@@ -119,7 +122,6 @@ song_dict = generate_word_dict(song)
 # print(occurs_often(song_dict, 6))
 
 
-#####################################################
 ######################################################
 ############## AT HOME ###################
 ######################################################
@@ -129,7 +131,14 @@ def is_inverse(d1, d2):
     Assume values of d1 and d2 are unique and immutable
     Returns True if d1's keys are values in d2 and d1's 
     values are keys in d2 """
-    pass
+    for k1,v1 in d1.items():
+        if k1 not in d2.values() or v1 not in d2.keys():
+            return False
+    for k2,v2 in d2.items():
+        if k2 not in d1.values() or v2 not in d1.keys():
+            return False
+    return True
+    
 
 # d1 = {1:2, 3:4}
 # d2 = {2:1, 4:3}
@@ -151,7 +160,13 @@ def add_to_d(d, L):
     tuple in L and the associated value is the second element of a 
     tuple in L. If the key is already in d, do nothing to its value. 
     If the key cannot be added, raise a ValueError. Returns None. """
-    pass
+    for t in L:
+        try:
+            if t[0] not in d:
+                d[t[0]] = t[1]
+                ## add dictionary
+        except:
+            raise ValueError
     
 # d = {}
 # L = [(1,2), (3,4)]
@@ -167,3 +182,4 @@ def add_to_d(d, L):
 # L = [(3,4), ([1,2,3], 5)]
 # add_to_d(d, L)   
 # # raises a ValueError because its trying to add a list (mutable obj) as key
+
